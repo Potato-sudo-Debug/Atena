@@ -1,0 +1,65 @@
+/*Paragrafo kid e pai são as principais classes para formar os textos*/
+.paragrafo-kid{
+font-size: 30px;
+flex-wrap: wrap;
+text-align: left;
+}
+.paragrafo-pai{
+    width: 800px;
+    height: auto;
+}
+
+/*Tres img se refere a table de tres imagens*/
+.tres-img{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+/*two img e img tres se referem a table de duas e ao itens de tres imagens*/
+.two-img{
+width: 100%;
+table-layout: fixed;
+border-collapse: separate;
+border-spacing: 10px;
+}
+/*img two se refere aos itens da table que tem duas imagens*/
+.img-two{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+}
+.img-tres{
+    text-align: center;
+    padding: 10px;
+    width: 33.33%;
+}
+/*Se refere aos titulos que se localizam no centro e que tem ids e são h2*/
+#Atena,#Jogos,#Galeria{
+    text-align: center;
+}
+/*Modificação ao H1 para ficar maior comparado ao texto*/
+#mitologia{
+    font-size: 50px;
+}
+/*Aumenta os tamanhos dos H2 que tem id e que não tem*/
+#Quem-Atena,#Atena,#origens,#Character,#Contribuição,#Jogos,h2,#Galeria{
+    font-size: 40px;
+}
+/*Aumenta o tamanho do texto da lista*/
+li{
+    font-size: 30px;
+}
+/*Cores das bordas das imagens*/
+.red{
+border: 10px solid red;
+}
+.bronze{
+border: 10px solid #cd7f32;
+}
+.wine{
+border: 10px solid #722f37;
+}
+.gold{
+border: 10px solid gold;
+}
